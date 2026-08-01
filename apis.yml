@@ -1,9 +1,30 @@
 aid: polymorph
 name: Polymorph
-description: Polymorph is a company surfaced as a portfolio company of techstars, y-combinator and added
-  to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Polymorph is a Y Combinator (Winter 2026) startup building adaptive consumer
+  internet infrastructure that personalizes user experiences with AI agents.
+  Founded in San Francisco by Andrew Sy, the platform runs thousands of
+  continuous product and lifecycle-engagement experiments for its customers,
+  each carrying the craft of that product's direction and brand, so consumer
+  teams can scale experimentation in product surfaces without being bottlenecked
+  by headcount or design capacity. Its stated vision is to make the consumer
+  internet polymorphic — one that adapts to each user and optimizes for
+  delightful experiences. As of this profile the company operates a marketing
+  site only; it publishes no public API, developer documentation, SDKs, or
+  developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/polymorph/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://usepolymorph.com/polymorph-mark.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -11,12 +32,28 @@ x-backed-by:
 - y-combinator
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-website-note: >-
+  Original getpolymorph.com domain from the portfolio source now resolves to an
+  unrelated gambling site; the live company site is usepolymorph.com (confirmed
+  via the Y Combinator company page, YC W26).
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Personalization
+- Experimentation
+- Consumer Internet
+- Artificial Intelligence
+- Machine Learning
+- Growth
+- Y Combinator
 apis: []
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
@@ -24,4 +61,22 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://getpolymorph.com/
+  url: https://usepolymorph.com/
+- type: CrunchBase
+  url: https://www.crunchbase.com/organization/polymorph-0146
+- type: Y Combinator
+  url: https://www.ycombinator.com/companies/polymorph
+- type: TermsOfService
+  url: https://usepolymorph.com/legal/terms
+- type: PrivacyPolicy
+  url: https://usepolymorph.com/legal/privacy
+- type: Legal
+  url: https://usepolymorph.com/legal
+- type: Support
+  url: mailto:founders@usepolymorph.com
+- type: VulnerabilityDisclosure
+  url: security/polymorph-vulnerability-disclosure.yml
+- type: Security
+  url: https://usepolymorph.com/legal/security
+- type: DomainSecurity
+  url: security/polymorph-domain-security.yml
