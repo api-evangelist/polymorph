@@ -36,7 +36,7 @@ x-website-note: >-
   Original getpolymorph.com domain from the portfolio source now resolves to an
   unrelated gambling site; the live company site is usepolymorph.com (confirmed
   via the Y Combinator company page, YC W26).
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
